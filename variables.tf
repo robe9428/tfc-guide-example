@@ -13,3 +13,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "private_sg" {
+  type    = string
+  default = "sg-0517e772f86334983"
+}
